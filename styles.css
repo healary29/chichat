@@ -1,0 +1,50 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#postForm {
+    margin-bottom: 20px;
+}
+
+#timeline {
+    /* Styles for timeline posts */
+}
+
+.post {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.post img {
+    max-width: 100%;
+}
+
+.post .likes {
+    margin-bottom: 10px;
+}
+
+.comment {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
